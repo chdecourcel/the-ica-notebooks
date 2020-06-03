@@ -6,7 +6,7 @@ Please visit out [github homepage](https://github.com/chdecourcel/the-ica-notebo
 
 ## Description
 
-to be done
+Notebooks repo
 
 ## contact
 
