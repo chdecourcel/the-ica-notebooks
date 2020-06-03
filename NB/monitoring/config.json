@@ -1,0 +1,9 @@
+{
+    "Rafal.url": "http://review_v3-2-1.the-ica.ninja:8080/",
+    "Rafal.url1": "http://review_ops-mongo-deploy-update.the-ica.ninja:8080",
+    "Rafal.password": "",
+    "Rafal.user": "guillaume",
+    "proxies": {"http"  : "", 
+                 "https" : ""
+                  }
+}
