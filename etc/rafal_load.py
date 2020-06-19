@@ -13,6 +13,11 @@ import rafal
 
 # config loading from config.json file
 config = json.load(open(Path(__file__).parent / 'config.json'))
+config_user_file= Path('config_user.json') 
+if config_user_file.exists():
+    config_user = json.load(open(config_user_file))
+    if "Rafal.urls" in config_user:
+        config["Rafal.urls"].update(config_user["Rafal.urls"])
 
 # open a new rafal session and connect
 session= rafal.Session(verbose= True)
