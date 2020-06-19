@@ -1,0 +1,12 @@
+{
+    "Rafal.urls": {
+        "review_master": "http://review_master.the-ica.ninja:8080",
+        "CACIB 3.2.7": "http://10.150.33.26:8080",
+        "review_chc": "http://review_chc.the-ica.ninja:8080"
+    },
+    "Rafal.user": "guillaume",
+    "Rafal.password": "",
+    "proxies": {"http"  : "", 
+                 "https" : ""
+                  }
+}
