@@ -1,0 +1,677 @@
+2020-06-19 20:55:42,469 [1] INFO - =====================================================================================
+2020-06-19 20:55:42,476 [1] INFO - =====================================================================================
+2020-06-19 20:55:42,476 [1] INFO - =====                            S T A R T I N G   A P P L I C A T I O N
+2020-06-19 20:55:42,476 [1] INFO - =====================================================================================
+2020-06-19 20:55:42,476 [1] INFO - =====================================================================================
+2020-06-19 20:55:42,477 [1] INFO - Rafal Version : 1.6.42.0
+2020-06-19 20:55:42,477 [1] INFO - Build : 42
+2020-06-19 20:55:42,477 [1] INFO - Build Date : 09/06/2020 14:36:57
+2020-06-19 20:55:42,477 [1] INFO - .Net Version : 4.0.30319.42000
+2020-06-19 20:55:42,477 [1] INFO - Machine : LAPTOP-M7C54VOV
+2020-06-19 20:55:42,477 [1] INFO - Location  : C:\Users\chdec\Documents\Rafal\Release_RafalUI_1.6.42\Release
+2020-06-19 20:55:42,477 [1] INFO - Starting App
+2020-06-19 20:55:46,562 [1] DEBUG - ShowProgressPanel
+2020-06-19 20:55:46,608 [1] INFO - Login in to http://review_chc.the-ica.ninja:8080/ using content adapter ZeroDateContentAdapter
+2020-06-19 20:55:46,630 [1] DEBUG - TRAFFIC. GET /ping 
+2020-06-19 20:55:47,386 [1] INFO - Reading version info
+2020-06-19 20:55:47,406 [1] INFO - Reading feature flags
+2020-06-19 20:55:47,419 [1] INFO - Version info read
+2020-06-19 20:55:47,419 [1] INFO - Reading feature flags
+2020-06-19 20:55:47,419 [1] INFO - Using new auth
+2020-06-19 20:55:47,419 [1] INFO - Using new filters
+2020-06-19 20:55:47,419 [1] INFO - Using regex filters
+2020-06-19 20:55:47,419 [1] INFO - Using Injective groups
+2020-06-19 20:55:48,151 [1] DEBUG - Response HttpStatusCode => 200
+2020-06-19 20:55:48,151 [1] DEBUG - Response => {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxLW01ZmNxbHRudTFNa2JseUV5VmtlTjNMRjJYYjUyR0JYY0FPRXAzWlhrMFwvTk5jcXUwZFp6WllrKzBuUDRTYjFudmxwaUljdXRyXC83Z1o1dFN3ZUlcL2t3PT0iLCJpc3MiOiJyYWZhbGUiLCJleHAiOjE1OTI2NzkzNDgsImlhdCI6MTU5MjU5Mjk0OCwianRpIjoiM2EzZWJmZGVjMmY5YWQ5M2M0ZTFhZDQ1ODg1NmMxM2NmMjQ4NmRmYWI3ZjQzNTIxNjEyMDhmMjRlNDI2NmI2MDA3NTBkZGNlMTI4ZDMwNGVjZTAxNTFkZDc0MGQxNWFkMzE4MmY1NWQwNmQxOThlMWU2YTFiYTFiMDNkMThjNjM5MTY3ZjFkMWE3MWI5OWQ3MDJiMmZiMDVmZjY5NTliYTc4ODljZWMxNDA5YmQ4YmM1YThjMmZkYzc5Y2E4YmRhM2U2NGE5M2NkMzg3M2MyMjI3YjFlODMxMGI5MWMzY2VlZWQ1YjAxOGRjYjVmNmU2YjQxZmViMWVjYjEwOTYwNiJ9.W85X7r2mKGGobpa_jNfHGaECe_ky3_cWEwaKy7-rYSs","policies":[{"name":"Admin","policies":[{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff0","actions":["getModule","editModule","testCalculators"],"resource":"module:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff1","actions":["editPivot","runPivot"],"resource":"pivot:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff2","actions":["editDimensionGroup"],"resource":"dimensionGroup:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff3","actions":["getLimit","editLimit"],"resource":"limit:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff4","actions":["runCalculator","editCalculator"],"resource":"calculator:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff5","actions":["canKill"],"resource":"query:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff6","actions":["canCommit","canExpungeRow"],"resource":"table:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff7","actions":["getBranch","moveBranch"],"resource":"branch:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff8","actions":["getUser","editUser"],"resource":"user:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ff9","actions":["editUserGroup"],"resource":"userGroup:*"},{"id":"9de78f13-bc16-4bbb-abcd-8b5db16c4ffa","actions":["canDownloadLog"],"resource":"auditLog:*"}]}]}
+2020-06-19 20:55:48,395 [1] INFO - Logged in : Version:3.2.7-7-g2b1d9f4 build:08/06/2020 start:19/06/2020 branch:2b1d9f4833ebe01ba6e8bcf58e009862cbe0a3ef commit:2b1d9f4833ebe01ba6e8bcf58e009862cbe0a3ef
+2020-06-19 20:55:48,397 [1] INFO - Collecting server list
+2020-06-19 20:55:48,407 [1] DEBUG - TRAFFIC. GET /dotnetconfig/ServerList 
+2020-06-19 20:55:48,518 [1] DEBUG - TRAFFIC. GET /dotnetconfig/ServerList/ServerList 
+2020-06-19 20:55:48,628 [1] INFO - Server list updated locally
+2020-06-19 20:55:48,637 [1] DEBUG - TRAFFIC. GET /dotnetconfig/UserSettings/guillaume 
+2020-06-19 20:56:06,221 [1] ERROR - Dimension mtms is declared as array but it does not have an entry in module's arrayDimensions. It should.
+2020-06-19 20:56:06,221 [1] ERROR - Dimension fxs is declared as array but it does not have an entry in module's arrayDimensions. It should.
+2020-06-19 20:56:06,221 [1] ERROR - Dimension diffusions is declared as array but it does not have an entry in module's arrayDimensions. It should.
+2020-06-19 20:56:07,483 [1] ERROR - GET Failed with http Status Code NotFound.
+Request:/dotnetconfig/DrillDownDimension/DrillDimensions_mtm_guillaume. 
+Body:{"id":"cf345878-5bce-46a2-a4a0-70178063b359","rafalError":"DotnetSettingNotFound","message":"The dotnetsetting DrillDimensions_mtm_guillaume was not found in database.","setting":"DrillDimensions_mtm_guillaume"}.
+RespStatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Accept-Encoding
+  Vary: Origin
+  commit: 2b1d9f4833ebe01ba6e8bcf58e009862cbe0a3ef
+  builtAt: 2020-06-08 14:52:39.520
+  version: 3.2.7-7-g2b1d9f4
+  Request-Time: 17
+  Connection: close
+  Date: Fri, 19 Jun 2020 18:56:08 GMT
+  Content-Type: text/plain; charset=UTF-8
+} 
+2020-06-19 20:56:07,484 [1] ERROR - Exception message:{"id":"cf345878-5bce-46a2-a4a0-70178063b359","rafalError":"DotnetSettingNotFound","message":"The dotnetsetting DrillDimensions_mtm_guillaume was not found in database.","setting":"DrillDimensions_mtm_guillaume"}
+2020-06-19 20:56:16,815 [1] ERROR - ========================== ( Message processor failed ) ==============================
+2020-06-19 20:56:16,815 [1] ERROR - Message description : EventType = PIVOTSETUP_CHANGE_REQUEST
+2020-06-19 20:56:16,815 [1] ERROR - #REF20191009.1 metric threshold cannot be found in pivot definition
+2020-06-19 20:56:16,821 [1] ERROR -    at RafalUI.Forms.FPivot.set_showCurrency(Boolean value) in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\Forms\FPivot.cs:line 1227
+   at RafalUI.Forms.FPivot.<CopySetup>d__141.MoveNext() in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\Forms\FPivot.cs:line 1154
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RafalUI.Forms.FPivot.<do_messageHandler>d__150.MoveNext() in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\Forms\FPivot.cs:line 1500
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RafalLibrary.Events.ICAEventBroadcaster.<invokeAsync>d__29.MoveNext() in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\RafalUtils\Events\EventBroadcaster.cs:line 215
+2020-06-19 20:56:16,821 [1] ERROR - ======================================================================================
+2020-06-19 20:56:16,821 [1] FATAL - Handling message PIVOTSETUP_CHANGE_REQUEST (RafalUI.Components.Pivot, RafalUI.Components.PivotSetup, RafalBackend.Components.request.PivotAdditionalParameters) failed
+2020-06-19 20:56:16,822 [1] ERROR - Failed creating document : #REF20191009.1 metric threshold cannot be found in pivot definition
+2020-06-19 20:56:16,822 [1] ERROR - Failed restoring Threshold. Err = Check log for more
+2020-06-19 20:56:16,909 [1] ERROR - ========================== ( Message processor failed ) ==============================
+2020-06-19 20:56:16,909 [1] ERROR - Message description : EventType = PIVOTSETUP_CHANGE_REQUEST
+2020-06-19 20:56:16,909 [1] ERROR - #REF20191009.1 metric cdsSpread cannot be found in pivot definition
+2020-06-19 20:56:16,909 [1] ERROR -    at RafalUI.Forms.FPivot.set_showCurrency(Boolean value) in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\Forms\FPivot.cs:line 1227
+   at RafalUI.Forms.FPivot.<CopySetup>d__141.MoveNext() in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\Forms\FPivot.cs:line 1154
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RafalUI.Forms.FPivot.<do_messageHandler>d__150.MoveNext() in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\Forms\FPivot.cs:line 1500
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RafalLibrary.Events.ICAEventBroadcaster.<invokeAsync>d__29.MoveNext() in C:\Users\VincentBoilay\Documents\Visual Studio 2019\Projects\rafalfatui\RafalUtils\Events\EventBroadcaster.cs:line 215
+2020-06-19 20:56:16,909 [1] ERROR - ======================================================================================
+2020-06-19 20:56:16,909 [1] FATAL - Handling message PIVOTSETUP_CHANGE_REQUEST (RafalUI.Components.Pivot, RafalUI.Components.PivotSetup, RafalBackend.Components.request.PivotAdditionalParameters) failed
+2020-06-19 20:56:16,909 [1] ERROR - Failed creating document : #REF20191009.1 metric cdsSpread cannot be found in pivot definition
+2020-06-19 20:56:16,909 [1] ERROR - Failed restoring CDSSpread. Err = Check log for more
+2020-06-19 20:58:15,457 [1] INFO - Elapsed: Response Parser ==> 61ms
+2020-06-19 20:58:15,520 [1] INFO - Elapsed: Injection in pivot ==> 63ms
+2020-06-19 20:58:15,520 [1] INFO - Elapsed: Total ==> 2,096ms
+2020-06-19 20:58:35,788 [1] DEBUG - TRAFFIC. POST /dotnetconfig {
+    "type": "UserSettings",
+    "shared": false,
+    "name": "guillaume",
+    "tag": null,
+    "userId": "guillaume",
+    "value": {
+        "batchPath_": "C:\\Users\\vince\\Documents",
+        "reportPath_": "C:\\Users\\hvasseur",
+        "useExplicitXLDSPath_": false,
+        "xlDSPath_": "",
+        "defaultLayout_": "C:\\Users\\vince\\Documents",
+        "skinName_": "Basic",
+        "logLevel_": "Debug",
+        "logTraffic_": false,
+        "logParams_": null,
+        "useFacet_": true,
+        "computeOnLayoutLoad_": false,
+        "loadDefaultLayoutAtStartup_": false,
+        "periodFormat1Y_": false,
+        "collectQueryExecution_": false,
+        "anonymized_": "sensi_dynamic Cpty4MTM;sensi_dynamic ExpiryGroup;sensi_dynamic Book;sensi_dynamic Date;sensi_dynamic CsaId;sensi_dynamic CurrencyGroup",
+        "defaultRequestTimeOut_": 200,
+        "dlSizeWarningThreshold_": 100000
+    }
+}
+2020-06-19 20:58:38,376 [1] DEBUG - ----------------------- Binding filter to document RiskFactor
+2020-06-19 20:58:38,401 [1] DEBUG - TRAFFIC. GET /tables/diffusions/commits/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855/2019-04-16 
+2020-06-19 20:58:38,471 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:58:38,501 [1] DEBUG - Computing RiskFactor
+2020-06-19 20:58:38,501 [1] DEBUG - ShowProgressPanel
+2020-06-19 20:58:38,595 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:58:38,595 [1] DEBUG - Module: mtm Timeout: 200s
+2020-06-19 20:58:38,595 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:58:38,595 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:58:38,595 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:58:38,596 [1] DEBUG - TRAFFIC. GET /tables/diffusions/commits/2019-04-16 
+2020-06-19 20:58:38,650 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 2-mtm
+2020-06-19 20:58:38,650 [1] DEBUG - TRAFFIC. POST /module/mtm/query {
+    "metrics": [
+        "RiskFactorAggreg"
+    ],
+    "postaggregaggr": {
+        
+    },
+    "with_facet": true,
+    "filter_on_query": null,
+    "batch": false,
+    "batch_description": null,
+    "currency": "EUR",
+    "pivot": "RiskFactors",
+    "by": [
+        "dates",
+        "RiskClass",
+        "Currency",
+        "RiskName",
+        "scenario"
+    ],
+    "where": {
+        "scenario": {
+            "values": [
+                "0"
+            ],
+            "notValues": [
+                
+            ],
+            "ranges": [
+                
+            ],
+            "dateRanges": [
+                
+            ],
+            "sql": null,
+            "match": null
+        }
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ],
+    "query_id": "d823381d-e6e9-4e37-bd9b-121f6be8ad8f"
+}
+2020-06-19 20:58:38,667 [1] DEBUG - Node count 1
+2020-06-19 20:58:39,741 [19] DEBUG - Returned element count 6170
+2020-06-19 20:58:39,741 [1] DEBUG - Response received.
+2020-06-19 20:58:39,816 [1] DEBUG - Process over. Processed 6169 rows.
+2020-06-19 20:58:39,816 [1] INFO - Elapsed: Response Parser ==> 56ms
+2020-06-19 20:58:39,867 [1] INFO - Elapsed: Injection in pivot ==> 50ms
+2020-06-19 20:58:39,867 [1] INFO - Elapsed: Total ==> 1,271ms
+2020-06-19 20:58:39,977 [1] DEBUG - Computed RiskFactor
+2020-06-19 20:58:39,977 [1] DEBUG - CloseProgressPanel 
+2020-06-19 20:59:25,644 [1] DEBUG - ----------------------- Binding filter to document MTMCube
+2020-06-19 20:59:25,664 [1] DEBUG - TRAFFIC. GET /tables/mtms/commits/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855/2019-04-16 
+2020-06-19 20:59:26,921 [1] INFO - Elasped: commitTree.Display.getAncestors ==> 1,257ms
+2020-06-19 20:59:26,921 [1] DEBUG - TRAFFIC. GET /tables/mtms/commits/2019-04-16 
+2020-06-19 20:59:26,990 [1] DEBUG - Node count 1
+2020-06-19 20:59:26,991 [1] DEBUG -                              *** Handling message PIVOT_ACTIVATED from CommitTreeManager took 1,327ms
+2020-06-19 20:59:26,991 [1] DEBUG -                              *** Notified property PIVOT_ACTIVATED RafalBackend.Components.Managers.PivotActivationDetails.Elapsed 1,327ms
+2020-06-19 20:59:26,991 [1] DEBUG -                              *** Handling message PIVOT_ENTER from FPivot took 1,328ms
+2020-06-19 20:59:26,991 [1] DEBUG -                              *** Notified property PIVOT_ENTER RafalUI.Forms.FPivot.Elapsed 1,351ms
+2020-06-19 20:59:28,593 [1] DEBUG - TRAFFIC. POST /dotnetconfig {
+    "type": "UserSettings",
+    "shared": false,
+    "name": "guillaume",
+    "tag": null,
+    "userId": "guillaume",
+    "value": {
+        "batchPath_": "C:\\Users\\vince\\Documents",
+        "reportPath_": "C:\\Users\\hvasseur",
+        "useExplicitXLDSPath_": false,
+        "xlDSPath_": "",
+        "defaultLayout_": "C:\\Users\\vince\\Documents",
+        "skinName_": "Basic",
+        "logLevel_": "Debug",
+        "logTraffic_": false,
+        "logParams_": null,
+        "useFacet_": true,
+        "computeOnLayoutLoad_": false,
+        "loadDefaultLayoutAtStartup_": false,
+        "periodFormat1Y_": false,
+        "collectQueryExecution_": false,
+        "anonymized_": "sensi_dynamic Cpty4MTM;sensi_dynamic ExpiryGroup;sensi_dynamic Book;sensi_dynamic Date;sensi_dynamic CsaId;sensi_dynamic CurrencyGroup",
+        "defaultRequestTimeOut_": 200,
+        "dlSizeWarningThreshold_": 100000
+    }
+}
+2020-06-19 20:59:28,594 [1] DEBUG - TRAFFIC. POST /dotnetconfig {
+    "type": "UserSettings",
+    "shared": false,
+    "name": "guillaume",
+    "tag": null,
+    "userId": "guillaume",
+    "value": {
+        "batchPath_": "C:\\Users\\vince\\Documents",
+        "reportPath_": "C:\\Users\\hvasseur",
+        "useExplicitXLDSPath_": false,
+        "xlDSPath_": "",
+        "defaultLayout_": "C:\\Users\\vince\\Documents",
+        "skinName_": "Basic",
+        "logLevel_": "Debug",
+        "logTraffic_": false,
+        "logParams_": null,
+        "useFacet_": true,
+        "computeOnLayoutLoad_": false,
+        "loadDefaultLayoutAtStartup_": false,
+        "periodFormat1Y_": false,
+        "collectQueryExecution_": false,
+        "anonymized_": "sensi_dynamic Cpty4MTM;sensi_dynamic ExpiryGroup;sensi_dynamic Book;sensi_dynamic Date;sensi_dynamic CsaId;sensi_dynamic CurrencyGroup",
+        "defaultRequestTimeOut_": 200,
+        "dlSizeWarningThreshold_": 100000
+    }
+}
+2020-06-19 20:59:33,270 [1] DEBUG - ShowProgressPanel
+2020-06-19 20:59:33,685 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:59:33,738 [1] DEBUG - Computing MTMCube
+2020-06-19 20:59:33,827 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:33,828 [1] DEBUG - Module: mtm Timeout: 200s
+2020-06-19 20:59:33,828 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:33,828 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:59:33,828 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:59:33,908 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:59:33,913 [1] DEBUG - Computing RiskFactor
+2020-06-19 20:59:34,004 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,004 [1] DEBUG - Module: mtm Timeout: 200s
+2020-06-19 20:59:34,004 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,004 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:59:34,004 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:59:34,029 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:59:34,032 [1] DEBUG - Computing PFE
+2020-06-19 20:59:34,118 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,118 [1] DEBUG - Module: mtm Timeout: 200s
+2020-06-19 20:59:34,118 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,118 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:59:34,118 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:59:34,129 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:59:34,132 [1] DEBUG - Computing PFECollat
+2020-06-19 20:59:34,217 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,217 [1] DEBUG - Module: mtm Timeout: 200s
+2020-06-19 20:59:34,217 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,217 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:59:34,218 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:59:34,223 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:59:34,229 [1] DEBUG - Computing Count
+2020-06-19 20:59:34,312 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,312 [1] DEBUG - Module: mtm Timeout: 200s
+2020-06-19 20:59:34,312 [1] DEBUG - -(PIVOT DETAILS)-------------------------------
+2020-06-19 20:59:34,312 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:59:34,312 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:59:34,322 [1] WARN - ModuleManager.instance.getTableDefinition does not contain datearray.
+It could be normal if datearray is a table used in a calculator request.
+Assuming not versioned
+2020-06-19 20:59:34,322 [1] DEBUG - Commit used for request : Initial data for the day/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-06-19 20:59:34,326 [1] DEBUG - Computing VaR
+2020-06-19 20:59:34,416 [1] DEBUG - -(CALCULATOR DETAILS)-------------------------------
+2020-06-19 20:59:34,416 [1] DEBUG - Module : mtm
+2020-06-19 20:59:34,416 [1] DEBUG - Calculator Request
+2020-06-19 20:59:34,416 [1] DEBUG - Timeout: 200s
+2020-06-19 20:59:34,416 [1] DEBUG - -(CALCULATOR DETAILS)-------------------------------
+2020-06-19 20:59:34,416 [1] DEBUG - Setting timeout to 200sec
+2020-06-19 20:59:34,416 [1] DEBUG - Setting timeout to 10sec
+2020-06-19 20:59:34,417 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 2-mtm
+2020-06-19 20:59:34,417 [1] DEBUG - TRAFFIC. POST /module/mtm/query {
+    "metrics": [
+        "RiskFactorAggreg"
+    ],
+    "postaggregaggr": {
+        
+    },
+    "with_facet": true,
+    "filter_on_query": null,
+    "batch": false,
+    "batch_description": null,
+    "currency": "EUR",
+    "pivot": "RiskFactors",
+    "by": [
+        "dates",
+        "RiskClass",
+        "Currency",
+        "RiskName",
+        "scenario"
+    ],
+    "where": {
+        "scenario": {
+            "values": [
+                "0"
+            ],
+            "notValues": [
+                
+            ],
+            "ranges": [
+                
+            ],
+            "dateRanges": [
+                
+            ],
+            "sql": null,
+            "match": null
+        }
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ],
+    "query_id": "d5bcdd29-cebf-460b-b063-a6506db6e7c9"
+}
+2020-06-19 20:59:34,417 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 7-mtm
+2020-06-19 20:59:34,417 [1] DEBUG - TRAFFIC. POST /module/mtm/query {
+    "metrics": [
+        "Count"
+    ],
+    "postaggregaggr": {
+        
+    },
+    "with_facet": true,
+    "filter_on_query": null,
+    "batch": false,
+    "batch_description": null,
+    "currency": null,
+    "pivot": "MTM",
+    "by": [
+        "dates"
+    ],
+    "where": {
+        "@and": [
+            
+        ]
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ],
+    "query_id": "9427d335-5fc7-4c57-86df-25b60346d112"
+}
+2020-06-19 20:59:34,417 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 4-mtm
+2020-06-19 20:59:34,417 [1] DEBUG - TRAFFIC. POST /module/mtm/query {
+    "metrics": [
+        "PosExposureCollat"
+    ],
+    "postaggregaggr": {
+        "PosExposureCollat": "avg"
+    },
+    "with_facet": true,
+    "filter_on_query": null,
+    "batch": false,
+    "batch_description": null,
+    "currency": "EUR",
+    "pivot": "MTMpostSum",
+    "by": [
+        "dates",
+        "csa"
+    ],
+    "where": {
+        "@and": [
+            {
+                "industry": {
+                    "values": [
+                        "Financials"
+                    ],
+                    "notValues": [
+                        
+                    ],
+                    "ranges": [
+                        
+                    ],
+                    "dateRanges": [
+                        
+                    ],
+                    "sql": null,
+                    "match": null
+                }
+            },
+            {
+                "country": {
+                    "values": [
+                        "EU ZONE"
+                    ],
+                    "notValues": [
+                        
+                    ],
+                    "ranges": [
+                        
+                    ],
+                    "dateRanges": [
+                        
+                    ],
+                    "sql": null,
+                    "match": null
+                }
+            }
+        ]
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ],
+    "query_id": "f2ab31b0-088d-41a9-af3b-baaa14774deb"
+}
+2020-06-19 20:59:34,417 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 1-mtm
+2020-06-19 20:59:34,417 [1] DEBUG - TRAFFIC. POST /module/mtm/query {
+    "metrics": [
+        "MtmAggreg"
+    ],
+    "postaggregaggr": {
+        
+    },
+    "with_facet": true,
+    "filter_on_query": null,
+    "batch": false,
+    "batch_description": null,
+    "currency": "EUR",
+    "pivot": "MTM",
+    "by": [
+        "dates",
+        "scenario"
+    ],
+    "where": {
+        "@and": [
+            {
+                "csa": {
+                    "values": [
+                        "BANK01"
+                    ],
+                    "notValues": [
+                        
+                    ],
+                    "ranges": [
+                        
+                    ],
+                    "dateRanges": [
+                        
+                    ],
+                    "sql": null,
+                    "match": null
+                }
+            },
+            {
+                "scenario": {
+                    "values": [
+                        
+                    ],
+                    "notValues": [
+                        
+                    ],
+                    "ranges": [
+                        
+                    ],
+                    "dateRanges": [
+                        
+                    ],
+                    "sql": "select distinct scenario  from default.diffusions where  diffusions[(select indexOf(dates,toDate('2047-06-05') ) from datearray)] < 0.34 and SensId=2",
+                    "match": null
+                }
+            }
+        ]
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ],
+    "query_id": "0fb722c6-b52e-431b-a1df-1a4e50b9f794"
+}
+2020-06-19 20:59:34,417 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 3-mtm
+2020-06-19 20:59:34,417 [1] DEBUG - TRAFFIC. POST /module/mtm/query {
+    "metrics": [
+        "PosExposure"
+    ],
+    "postaggregaggr": {
+        "PosExposure": "avg"
+    },
+    "with_facet": true,
+    "filter_on_query": null,
+    "batch": false,
+    "batch_description": null,
+    "currency": "EUR",
+    "pivot": "MTMpostSum",
+    "by": [
+        "dates",
+        "country",
+        "industry"
+    ],
+    "where": {
+        "@and": [
+            
+        ]
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ],
+    "query_id": "0772ca9e-1d09-4636-946e-0df70fd37a0e"
+}
+2020-06-19 20:59:34,473 [1] DEBUG - ~~~~~~~~~~~~~~ emitter 8-mtm
+2020-06-19 20:59:34,473 [1] DEBUG - TRAFFIC. POST /module/mtm/calculate {
+    "batch_description": null,
+    "by": [
+        "counterparty"
+    ],
+    "where": {
+        "@and": [
+            {
+                "industry": {
+                    "values": [
+                        "Energy"
+                    ],
+                    "notValues": [
+                        
+                    ],
+                    "ranges": [
+                        
+                    ],
+                    "dateRanges": [
+                        
+                    ],
+                    "sql": null,
+                    "match": null
+                }
+            },
+            {
+                "scenario": {
+                    "values": [
+                        
+                    ],
+                    "notValues": [
+                        
+                    ],
+                    "ranges": [
+                        
+                    ],
+                    "dateRanges": [
+                        
+                    ],
+                    "sql": "select distinct scenario  from default.diffusions where  diffusions[(select indexOf(dates,toDate('2047-06-05') ) from datearray)] < 0.34 and SensId=2",
+                    "match": null
+                }
+            }
+        ]
+    },
+    "calculatorName": "CVaR_CPTY",
+    "parameters": {
+        "Quantile": 0.9,
+        "agg_level": "counterparty",
+        "pivot_fields": {
+            "rows": [
+                "dates"
+            ],
+            "columns": [
+                "counterparty"
+            ]
+        },
+        "metrics": [
+            "result"
+        ]
+    },
+    "versioning": [
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-15"
+        },
+        {
+            "commit": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "asOf": "2019-04-16"
+        }
+    ]
+}
+2020-06-19 20:59:36,067 [38] DEBUG - Returned element count 159
+2020-06-19 20:59:36,068 [1] DEBUG - Response received.
+2020-06-19 20:59:36,075 [1] DEBUG - Process over. Processed 158 rows.
+2020-06-19 20:59:36,075 [1] INFO - Elapsed: Response Parser ==> 5ms
+2020-06-19 20:59:36,098 [1] INFO - Elapsed: Injection in pivot ==> 23ms
+2020-06-19 20:59:36,098 [1] INFO - Elapsed: Total ==> 1,786ms
+2020-06-19 20:59:36,186 [1] DEBUG - Computed Count
+2020-06-19 20:59:36,219 [1] DEBUG -                              *** Handling message CALCULATE from FPivot took 2,001ms
+2020-06-19 20:59:36,219 [1] DEBUG -                              *** Notified property CALCULATE RafalUI.Components.Pivot.Elapsed 2,000ms
+2020-06-19 20:59:36,603 [11] DEBUG - Returned element count 6170
+2020-06-19 20:59:36,603 [1] DEBUG - Response received.
+2020-06-19 20:59:36,669 [1] DEBUG - Process over. Processed 6169 rows.
+2020-06-19 20:59:36,669 [1] INFO - Elapsed: Response Parser ==> 61ms
+2020-06-19 20:59:36,719 [1] INFO - Elapsed: Injection in pivot ==> 50ms
+2020-06-19 20:59:36,719 [1] INFO - Elapsed: Total ==> 2,715ms
+2020-06-19 20:59:36,788 [1] DEBUG - Computed RiskFactor
+2020-06-19 20:59:36,807 [1] DEBUG -                              *** Handling message CALCULATE from FPivot took 2,979ms
+2020-06-19 20:59:36,807 [1] DEBUG -                              *** Notified property CALCULATE RafalUI.Components.Pivot.Elapsed 2,978ms
+2020-06-19 20:59:37,950 [13] DEBUG - Returned element count 315
+2020-06-19 20:59:37,950 [1] DEBUG - Response received.
+2020-06-19 20:59:37,963 [1] DEBUG - Process over. Processed 314 rows.
+2020-06-19 20:59:37,963 [1] INFO - Elapsed: Response Parser ==> 9ms
+2020-06-19 20:59:38,000 [1] INFO - Elapsed: Injection in pivot ==> 37ms
+2020-06-19 20:59:38,000 [1] INFO - Elapsed: Total ==> 3,783ms
+2020-06-19 20:59:38,073 [1] DEBUG - Computed PFECollat
+2020-06-19 20:59:38,078 [1] DEBUG -                              *** Handling message CALCULATE from FPivot took 3,960ms
+2020-06-19 20:59:38,078 [1] DEBUG -                              *** Notified property CALCULATE RafalUI.Components.Pivot.Elapsed 3,959ms
+2020-06-19 20:59:40,077 [40] DEBUG - Returned element count 1724
+2020-06-19 20:59:40,077 [1] DEBUG - Response received.
+2020-06-19 20:59:40,107 [1] DEBUG - Process over. Processed 1723 rows.
+2020-06-19 20:59:40,107 [1] INFO - Elapsed: Response Parser ==> 24ms
+2020-06-19 20:59:40,137 [1] INFO - Elapsed: Injection in pivot ==> 30ms
+2020-06-19 20:59:40,137 [1] INFO - Elapsed: Total ==> 6,019ms
+2020-06-19 20:59:40,203 [1] DEBUG - Computed PFE
+2020-06-19 20:59:40,207 [1] DEBUG -                              *** Handling message CALCULATE from FPivot took 6,203ms
+2020-06-19 20:59:40,207 [1] DEBUG -                              *** Notified property CALCULATE RafalUI.Components.Pivot.Elapsed 6,203ms
+2020-06-19 20:59:45,593 [4] DEBUG - Returned element count 297805
+2020-06-19 20:59:45,593 [1] DEBUG - Response received.
+2020-06-19 20:59:46,295 [1] DEBUG - Processed 50000 rows
+2020-06-19 20:59:46,711 [1] DEBUG - Processed 100000 rows
+2020-06-19 20:59:47,121 [1] DEBUG - Processed 150000 rows
+2020-06-19 20:59:47,536 [1] DEBUG - Processed 200000 rows
+2020-06-19 20:59:47,983 [1] DEBUG - Processed 250000 rows
+2020-06-19 20:59:48,376 [1] DEBUG - Process over. Processed 297804 rows.
+2020-06-19 20:59:48,376 [1] INFO - Elapsed: Response Parser ==> 2,662ms
+2020-06-19 20:59:50,238 [1] INFO - Elapsed: Injection in pivot ==> 331ms
+2020-06-19 20:59:50,238 [1] INFO - Elapsed: Total ==> 16,411ms
+2020-06-19 20:59:50,317 [1] DEBUG - Computed MTMCube
+2020-06-19 20:59:50,329 [1] DEBUG -                              *** Handling message CALCULATE from FPivot took 17,043ms
+2020-06-19 20:59:50,329 [1] DEBUG -                              *** Notified property CALCULATE RafalUI.Components.Pivot.Elapsed 17,043ms
