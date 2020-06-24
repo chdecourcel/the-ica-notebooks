@@ -23,6 +23,8 @@ import time
 
 t0= time.time()
 
+config_file= Path(Path(__file__).parent.parent.parent / 'etc' / 'config.json')
+
 # open a new rafal session and connect
 session= rafal.Session(verbose= True)
 
@@ -36,7 +38,7 @@ if env_url and env_user and env_pwd:
     session.connect(url= env_url, login= env_user, pwd= env_pwd)
 else:
     # config loading from config.json file
-    config = json.load(open(Path(__file__).parent.parent.parent / 'etc' / 'config.json'))
+    config = json.load(open(config_file))
     config_user_file= Path('config_user.json')
     if config_user_file.exists():
         config_user = json.load(open(config_user_file))

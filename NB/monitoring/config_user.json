@@ -1,0 +1,6 @@
+{
+    "Rafal.urls": {
+        "frugal":"http://review_frugal-containers.the-ica.ninja:8080",
+        "RT-monitoring": "http://review_real-time-monitoring.the-ica.ninja:8080"
+    }
+}

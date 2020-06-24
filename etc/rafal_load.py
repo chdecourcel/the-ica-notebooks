@@ -38,7 +38,10 @@ else:
 
     # UI connect
     myPwd= config.get('Rafal.password', environ.get('jpwd', None))
-    pwd_exists = bool(myPwd) 
+    pwd_exists = bool(myPwd)
+    wUser = widgets.Text(
+        value= user,
+        disabled= False,)
     wPwd= widgets.Password(value= '',
                         placeholder= 'from config' if pwd_exists else 'Enter password',
                         disabled= pwd_exists
@@ -67,7 +70,7 @@ else:
                 return
 
             # connect to rafal
-            session.connect(url= wServer.value, login= user, pwd= pwd, proxies= proxies)
+            session.connect(url= wServer.value, login= wUser.value, pwd= pwd, proxies= proxies)
             environ['jpwd']= pwd
             del pwd
 
@@ -85,7 +88,7 @@ else:
 
     uiConnect = widgets.VBox([
         widgets.HBox([widgets.Label(f'Rafal API :'), wServer]),
-        widgets.Label(f'User : {user}'),
+        widgets.HBox([widgets.Label(f'User :'), wUser]),
         widgets.HBox([widgets.Label(f'Password :'), wPwd, button,]),
         output,
         ])
